@@ -1,0 +1,24 @@
+
+
+.profile-image{
+
+  border-radius: 40%;
+  border: 3px solid white;
+  width: 300px;
+
+}
+
+.main-header{    
+	padding: 50px;
+ line-height: 1.5;    
+ background-color: #668599;
+}
+
+h1 {
+	color: white;
+}
+
+
+.main-header{
+	text-align: center;
+}
