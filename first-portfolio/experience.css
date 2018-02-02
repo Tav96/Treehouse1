@@ -1,12 +1,47 @@
 
+/* Nav Bar*/
 
-.profile-image{
-
-  border-radius: 40%;
-  border: 3px solid white;
-  width: 300px;
-
+.nav{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+	position: fixed;
+	top: 0;	
+	width: 100%;
 }
+
+.nav li{
+	float: left;
+}
+
+.nav-name{
+	color: white;
+}
+
+.nav li a{
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+.nav li{
+	border-left: 1px solid #bbb; 
+}
+
+.nav li a:hover{
+	background-color: #111;
+}
+
+.active{
+	background-color: #4caf50;
+}
+
+/*header*/
+
 
 .main-header{    
 	padding: 50px;
@@ -21,4 +56,37 @@ h1 {
 
 .main-header{
 	text-align: center;
+}
+
+/*body*/
+
+body{
+	  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  color: #222;
+  background: #f7f5f0;
+}
+
+.photographer{
+	height: 400px;
+	width: 500px;
+	border-radius: 20%;
+	float: right;	
+}
+
+.qualifications,
+.education{
+	width: 46.5%;
+}
+
+
+
+.qualifications{
+	float: left;
+	line-height: 1.5;
+}
+
+.education{
+	float: right;
 }
